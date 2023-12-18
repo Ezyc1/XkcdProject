@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xkcd</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/fetchComic.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="mainComic"></div>
+        <div id="infoComic"></div>
+        <div id="navComic">
+            <button id="forsta" onclick="getFirstComic()">First</button>
+    <button id="forra" onclick="getPreviousComic()"> Previous </button>
+    <button id="slumpa" onclick="getRandomComic()">Random</button>
+    <button id="nasta" onclick="getNextComic()"> Next </button>
+    <button id="sista" onclick="getLatestComic()">Latest</button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
